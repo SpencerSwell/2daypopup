@@ -1,0 +1,100 @@
+
+ #popup {
+ 	position:fixed;
+ 	background-color: white;
+ 	top:30%;
+ 	left:42%;
+ 	margin-top:-125px;
+ 	margin-left:-100px;
+ 	border:5px #E02B2E;
+ }
+
+ #delPopup {
+ 	position:fixed;
+ 	background-color:#E02B2E;
+ 	top:30%;
+ 	left:42%;
+ 	margin-top: -125px;
+ 	margin-left:-100px;
+ 	width:35px;
+ 	border-radius: 5px;
+ 	border: 5px #E02B2E;
+
+ }
+
+ @media (max-width:400px) {
+
+ 	#popup {
+ 		left:0%;
+ 		margin-top:0px;
+ 		margin-left:0px;
+
+ 	}
+
+ 	#delPopup {
+ 		left:0%;
+ 		margin-top: 0px;
+ 		margin-left: 0px;
+ 	}
+
+ }
+
+
+ @media (min-width:401px and max-width:459px) {
+
+#popup {
+ 		left:2%;
+ 		margin-top:0px;
+ 		margin-left:0px;
+
+ 	}
+
+ 	#delPopup {
+ 		left:2%;
+ 		margin-top: 0px;
+ 		margin-left: 0px;
+ 	}
+
+
+ }
+
+ @media (min-width:440px and max-width:550px) {
+
+	#popup {
+ 		left:10%;
+ 		margin-top:0px;
+ 		margin-left:0px;
+
+ 	}
+
+ 	#delPopup {
+ 		left:10%;
+ 		margin-top: 0px;
+ 		margin-left: 0px;
+ 	}
+
+
+ }
+
+
+
+
+@media (min-width:551px and max-width:801px) {
+
+	#popup {
+ 		left:42%;
+ 		margin-top:-125px;
+ 		margin-left:-150px;
+
+ 	}
+
+ 	#delPopup {
+ 		left:42%;
+ 		margin-top: -125px;
+ 		margin-left: -150px;
+ 	}
+
+
+}
+
+
